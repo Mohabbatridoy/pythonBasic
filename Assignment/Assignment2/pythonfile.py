@@ -1,4 +1,4 @@
-with open('WordFile','r') as file:
+with open('input.txt','r') as file:
     a = file.read()
 
 fileList = a.split("\n")
@@ -14,4 +14,4 @@ for search_words in search_words:
             count += 1
         else:
             continue
-    print(f"{search_words}-> {count}")
+    print(f"{search_words} -> {count}")
