@@ -25,8 +25,8 @@
 # fruitsList = fruits.split(",")
 # print(fruitsList)
 
-# name = "MOhabbat Hossain"
-# print(name.split(" "))
+name = "MOhabbat Hossain"
+print(name.split(" "))
 #
 # ###slice()
 # firstName = name[:8]
@@ -35,10 +35,10 @@
 # print(lastName)
 
 ###concat: the meaning is add two string:
-first_name = "Mohabbat"
-last_name = "Hridoy"
-fullName = first_name +" "+ last_name
-print(fullName)
-wel = "Welcome"
-cmpt = wel+ " "+fullName
-print(cmpt)
+# first_name = "Mohabbat"
+# last_name = "Hridoy"
+# fullName = first_name +" "+ last_name
+# print(fullName)
+# wel = "Welcome"
+# cmpt = wel+ " "+fullName
+# print(cmpt)
