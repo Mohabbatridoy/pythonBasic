@@ -2,9 +2,6 @@ import random
 low = 1
 high = 50
 
-# correct_answer = random.randint(low,high)
-# user_number = 0
-# print(correct_answer)
 
 def restartOrExit():
     print("1.Play again \n2.Exit")
@@ -15,8 +12,8 @@ def restartOrExit():
         print("Game Exit")
         return
     else:
-        print("Invalid! Enter 1 to play again or 2 to exit game")
-    restartOrExit()
+        print("Invalid! Enter 1 to play again or 2 to exit the Game")
+        restartOrExit()
 
 def numberGuser():
 
@@ -26,7 +23,7 @@ def numberGuser():
 
     for i in range(0, 5):
         print(f"You have {5 - i} chance left")
-        user_number = int(input(f"Guess a number between 1 and 50: "))
+        user_number = int(input(f"Guess a number between {low} and {high}: "))
 
         if user_number == correct_answer:
             print("YOU WIN")
