@@ -7,13 +7,18 @@ class a :
 # print(obj)
 # obj.hello()
 
-class B(a):
-    def __init__(self,name,job):
-        super().__init__(name)
+class B:
+    def __init__(self,job):
         self.job = job
     def hello(self):
-        print(f"{self.name} is a {self.job}")
+        print(f"{self.job}")
+
+class c(B,a):
+    pass
 
 
-obj = B('mohabbat','student')
+obj = c('mohabbat')
+# print(dir(obj))
 obj.hello()
+print(c.__mro__)
+
