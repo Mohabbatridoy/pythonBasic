@@ -10,7 +10,7 @@
 # obj = oopForImport.A()
 
 ## from statement:
-from oopForImport import add
+from my_module.oopForImport import add
 print(add(23,32))
 
-from oopForImport import * #=> to import everything:
+#from oopForImport import * #=> to import everything:
